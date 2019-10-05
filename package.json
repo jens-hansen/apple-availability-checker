@@ -1,6 +1,6 @@
 {
   "name": "apple-availability-checker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks pickup availability for apple devices in apple stores.",
   "author": "Jens Hansen <jens@jenshansen.org> (http://www.jenshansen.org)",
   "main": "./dist/index.js",

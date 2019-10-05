@@ -79,7 +79,7 @@ export const getAvailability = async ({
 }: AppleAvailabilityRequest): Promise<AppleAvailabilityResponse> => {
   let parts: string[] = []
   if (!Array.isArray(devices)) {
-    parts.push(`parts.0=${devices}`)
+    parts = [`parts.0=${devices}`]
   } else {
     parts = devices.map((device, index) => `parts.${index}=${device}`)
   }
