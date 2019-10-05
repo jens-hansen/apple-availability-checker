@@ -16,7 +16,7 @@ const node_fetch_1 = __importDefault(require("node-fetch"));
 exports.getAvailability = ({ devices, location, }) => __awaiter(void 0, void 0, void 0, function* () {
     let parts = [];
     if (!Array.isArray(devices)) {
-        parts.push(`parts.0=${devices}`);
+        parts = [`parts.0=${devices}`];
     }
     else {
         parts = devices.map((device, index) => `parts.${index}=${device}`);
