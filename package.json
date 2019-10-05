@@ -1,0 +1,23 @@
+{
+  "name": "apple-availability-checker",
+  "version": "1.0.0",
+  "description": "Checks pickup availability for apple devices in apple stores.",
+  "author": "Jens Hansen <jens@jenshansen.org> (http://www.jenshansen.org)",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.2",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
